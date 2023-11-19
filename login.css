@@ -1,0 +1,73 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+body {
+    background-image: url('medias/fundo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.btn-voltar{
+    display: block;
+    width: 40.736px;
+    height: 39.106px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.logo-login{
+    width: 300px;
+    height: 91px;
+    display: flex;
+
+    justify-content: center;
+
+}
+.img-logo{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+ margin-top: 5em ;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #949494;
+}
+#login{
+display: flex;
+width: 300px;
+height: 52px;
+justify-content: center;
+align-items: center;
+}
+
+#senha{
+    display: flex;
+width: 300px;
+height: 52px;
+justify-content: center;
+align-items: center;    
+}
+#login-btn{
+    color: white;
+    display: inline-flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    border: 1px solid #1A2D80; 
+    background: #1A2D80;}
