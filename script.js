@@ -59,5 +59,16 @@ function saudacao() {
     resultadoDiv.innerHTML = '';
     resultadoDiv.appendChild(p);
 }
-  
-  
+
+
+  document.getElementById('edit').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'block';
+  });
+  document.getElementById('cancelar').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'none';
+  });
+  document.getElementById('salvar').addEventListener('click', function() {
+    var novoTexto = document.getElementById('novoTexto').value;
+    document.getElementById('texto').innerText = novoTexto;
+    document.getElementById('popup').style.display = 'none';
+  });

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gestor</title>
     <link rel="stylesheet" href="colaborador.css">
 </head>
+
 <body>
    <header class="cabeca"><div class="btn-voltar">
-        <a href="login.html">
+    <a id="linkVoltar" href="javascript:history.go(-1)">
         <svg class="botao-voltar" xmlns="http://www.w3.org/2000/svg" width="47" height="45" viewBox="0 0 47 45" fill="none">
             <path d="M43.7356 22.5531H3M3 22.5531L22.5531 3M3 22.5531L22.5531 42.1061" stroke="#1A2D80" stroke-width="4.88827" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -123,6 +124,10 @@
     <div class="calendario">
         <a href="calendario.html" class="calendario-link">Calendário de refeiçoes</a>
     </div>
+    <div class="calendario">
+        <div id="edit">Editar alerta</div>
+    </div>
+
 <div class="alertas">
     <div class="alertas-do-dia">
     <h1 class="cardapio1">Alertas do dia</h1>
@@ -134,14 +139,19 @@
         </svg>
     </div>
         <hr>
-        <p class="comida">Hoje nâo funcionaremos apos as 4</p>
+        <p class="comida" id="texto">Hoje nâo funcionaremos apos as 4</p>
+
 
 </div>
-
-
+<div class="popup" id="popup">
+    <textarea id="novoTexto"></textarea>
+    <button id="salvar">Salvar</button>
+    <button id="cancelar">Cancelar</button>
+  </div>
 
 
 <script src="script.js"></script>
-    <script src="script.js"></script>
+   
+      
 </body>
 </html>
