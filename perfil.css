@@ -50,12 +50,38 @@ body {
         display: flex;
         color: #FFF;
         border-radius: 5px;
-        background: #1A2D80;
+        background-color: #1A2D80;
         align-items: center;
         max-width: 300px;
         margin: auto;
         justify-content: left;
         padding: 10px 10px;
         font-family: Montserrat;
+        text-decoration: none;
 
+    }
+    #editar{
+        text-decoration: none;
+        color: inherit;
+
+    }
+    a:visited{
+        text-decoration: none;
+        color: 
+        rgb(255, 255, 255);
+    }
+    .logout{
+        border-radius: 2.5rem;
+        background: #BF0413;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Montserrat;
+        margin: auto;
+        padding-inline: 20px;
+    }
+    .btn-logout{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        margin: 7vh;
     }

@@ -46,5 +46,18 @@ function saudacao() {
   }
   pegardiasemana();
 
+  function calcularPreco() {
+    const valorRefeicao = parseFloat(document.getElementById('valor-refe').value);
+    const quantiaRefeicoes = parseInt(document.getElementById('quantia-refe').value);
+    
+    const precoTotal = valorRefeicao * quantiaRefeicoes;
+    
+    const resultadoDiv = document.getElementById('resultado');
+    const p = document.createElement('p');
+    p.textContent = `O preço total das refeições é: R$ ${precoTotal.toFixed(2)}`;
+    
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.appendChild(p);
+}
   
   

@@ -184,7 +184,9 @@ text-align: justify;
 }
 
 .calendario{
+    text-decoration: none;
     display: flex;
+    align-items: center;
     color: white;
     font-family: Montserrat;
     border-radius: 0.3125rem;
@@ -199,6 +201,9 @@ text-align: justify;
     font-weight: 400;
     padding: 5px;
     margin-bottom: 20px;
+}
+.calendario-link{
+
 }
 .alertas{
     max-width: 20rem;
