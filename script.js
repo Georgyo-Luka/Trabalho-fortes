@@ -23,6 +23,26 @@ function saudacao() {
     const nomediasemana = dias[diaDaSemana];
     const elementoDiaSemana = document.getElementById('saudacao-dia');
     elementoDiaSemana.textContent = `Hoje é ${nomediasemana}`;
+    if (nomediasemana === 'Domingo') {
+      document.getElementById('domingo').style.display = 'table';
+  } else if (nomediasemana === 'Segunda-feira'){
+    document.getElementById('segunda').style.display = 'table';
+  }
+  else if (nomediasemana === 'Terça-feira'){
+    document.getElementById('terca').style.display = 'table';
+  }
+  else if (nomediasemana === 'Quarta-feira'){
+    document.getElementById('quarta').style.display = 'table';
+  }
+  else if (nomediasemana === 'Quinta-feira'){
+    document.getElementById('quinta').style.display = 'table';
+  }
+  else if (nomediasemana === 'Sexta-feira'){
+    document.getElementById('sexta').style.display = 'table';
+  }
+  else if (nomediasemana === 'Sábado'){
+    document.getElementById('sabado').style.display = 'table';
+  }
   }
   pegardiasemana();
 

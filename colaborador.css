@@ -4,19 +4,20 @@ body {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 100%; 
 }
 .btn-voltar{
     display: flex;
     justify-content: space-between;
    
     height: auto;
-    margin-left: 1em;
+    margin: auto;
     margin-top: 1em;
 }
 .botao-voltar{
     height: 30px;
     width: auto;
+    margin: auto;
 
 }
 
@@ -24,7 +25,7 @@ body {
     width: 250px;
     height: auto;
     display: flex;
-
+    margin: auto;
     justify-content: center;
 
 }
@@ -33,7 +34,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
+
 
 #saudacao{
     color: #FFF;
@@ -53,16 +56,102 @@ body {
 }
 #segunda{
    
-    width: 20rem;
+    max-width: 20rem;
     max-height: 200px;
     flex-shrink: 0;
     margin: auto;
-    display: table;
+    display: none;
     text-align: center;
     background-color: #FFF;
     flex-direction: row;
     border: 1px solid #00092E;
     border-radius: 5px;
+    
+}
+
+#terca{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#quarta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#quinta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#sexta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#sabado{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#domingo{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
     
 }
 .cardapio{
@@ -92,4 +181,43 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 text-align: justify;
+}
+
+.calendario{
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    border-radius: 0.3125rem;
+    background: #1A2D80;
+    max-width: 12.75rem;
+    height: 3.25rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.alertas{
+    max-width: 20rem;
+    height: 11.6875rem;
+    flex-shrink: 0;
+    margin: auto;
+        background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;}
+.alertas-do-dia{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
