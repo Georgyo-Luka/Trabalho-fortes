@@ -172,6 +172,11 @@ body {
     margin-bottom: 20px;
     
 }
+#confira{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
 .cardapio{
     margin: 0;
     padding-left: 10px;
@@ -275,7 +280,7 @@ text-align: justify;
     font-family: Montserrat;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 700;;
+    font-weight: 700;
 }
 #nao{
     color: #FF001D;
@@ -324,6 +329,7 @@ font-weight: 700;
     align-items: center;
 }
 #presença{
+    text-align: center;
     color: white;
     font-family: Montserrat;
 }
