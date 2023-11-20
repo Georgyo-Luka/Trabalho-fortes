@@ -19,6 +19,8 @@ body {
     width: auto;}
 
     .img-logo{
+        max-width: 10px;
+        max-height: auto;
         padding-top: 2em;
         display: flex;
         justify-content: center;
