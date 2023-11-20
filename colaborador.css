@@ -253,9 +253,24 @@ text-align: justify;
     font-style: normal;
     font-weight: 900;
 }
+#sim{
+    color: #3CCC64;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;;
+}
+#nao{
+    color: #FF001D;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+}
 #biometria{
-    max-width: 20rem;
+    max-width: 10rem;
     max-height: 200px;
+
     flex-shrink: 0;
     margin: auto;
     display: table;
@@ -264,4 +279,44 @@ text-align: justify;
     flex-direction: row;
     border: 1px solid #00092E;
     border-radius: 5px;
+}
+#biometria h1{
+    font-size: 15px;
+}
+#biometria h2{
+    font-size: 13px;
+}
+#biometria p{
+    font-size: 11px;
+   margin-right: 10px;
+    
+}
+.info{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+}
+#cardapio-confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#presença{
+    color: white;
+    font-family: Montserrat;
+}
+#cardapio-confirm a{
+    border-radius: 0.625rem;
+    background: #1A2D80;
+padding: 15px;
+color: #FFF;
+text-decoration: none;
+margin: auto;}
+.aaaa{
+    display: flex;
 }
