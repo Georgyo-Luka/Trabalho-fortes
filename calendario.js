@@ -3,18 +3,45 @@ document.addEventListener("DOMContentLoaded", function() {
   const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'];
   const diasMes = Array.from({ length: 31 }, (_, i) => i + 1);
   const urls = [
-      'dom.html', // Domingo
-      'seg.html', // Segunda
-      'ter.html', // Terça
-      'qua.html', // Quarta
-      'qui.html', // Quinta
-      'sex.html', // Sexta
-      'sab.html', // Sábado
-      // Substitua os links pelos links reais ou vazios ('') para dias além da quantidade de dias do mês
-      '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+      'dom.html', 
+      'seg.html',
+      'ter.html', 
+      'qua.html', 
+      'qui.html', 
+      'sex.html', 
+      'sab.html', 
+      'dom.html',
+      'seg.html',
+      'ter.html',
+      'qua.html', 
+      'qui.html',
+      'sex.html',
+      'sab.html',
+      'dom.html',
+      'seg.html',
+      'ter.html',
+      'qua.html',
+      'qui.html',
+      'sex.html',
+      'sab.html',
+      'dom.html',
+      'seg.html',
+      'ter.html',
+      'qua.html', 
+      'qui.html', 
+      'sex.html',
+      'sab.html',
+      'dom.html', 
+      'seg.html',
+      'ter.html', 
+      'sab.html',
+      'dom.html', 
+      'seg.html', 
+      'ter.html', 
+      'qua.html', 
+      'qui.html'
   ];
 
-  // Criação dos elementos do calendário com links para dias da semana e dias do mês
   for (let i = 0; i < diasSemana.length; i++) {
       const dayOfWeek = document.createElement('a');
       dayOfWeek.classList.add('day');

@@ -4,7 +4,7 @@ body {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 100%; 
 }
 .btn-voltar{
     display: flex;
@@ -19,13 +19,19 @@ body {
     width: auto;}
 
     .img-logo{
-        max-width: 10px;
-        max-height: auto;
         padding-top: 2em;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: auto;
+        max-width: 300px;
+
+
+    }
+    .cam{
+        background-color: rgb(240, 255, 255);
+        padding: 9px;
+        border-radius: 30px;
     }
     .img-perfil{
         display: flex;
@@ -62,6 +68,23 @@ body {
         text-decoration: none;
 
     }
+    #btnsalvar{
+        font-size: 1em;
+        display: flex;
+        color: #FFF;
+        border-radius: 5px;
+        background-color: #1A2D80;
+        align-items: center;
+        padding: 100px;
+        max-width: 150px;
+        margin: auto;
+        justify-content: center;
+        padding: 10px 10px;
+        font-family: Montserrat;
+        text-decoration: none;
+        margin-top: 20px;
+
+    }
     #editar{
         text-decoration: none;
         color: inherit;
@@ -87,3 +110,21 @@ body {
         align-items: center;
         margin: 7vh;
     }
+    #bio{
+        height: 100px;
+    }
+
+    input{
+        margin: auto;
+        margin-top: 15px;
+        display: block;
+        max-width: 400px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: none;
+        box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+        }
+    
+        

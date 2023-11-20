@@ -54,7 +54,6 @@ body {
     font-weight: 900;
 
 }
-
 #segunda{
    
     max-width: 20rem;
@@ -182,86 +181,4 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 text-align: justify;
-}
-
-.calendario{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-family: Montserrat;
-    border-radius: 0.3125rem;
-    background: #1A2D80;
-    max-width: 12.75rem;
-    height: 3.25rem;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    padding: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.calendario-link{
-    color: #FFF;
-    text-decoration: none;
-
-}
-.alertas{
-    max-width: 20rem;
-    height: 11.6875rem;
-    flex-shrink: 0;
-    margin: auto;
-        background-color: #FFF;
-    flex-direction: row;
-    border: 1px solid #00092E;
-    border-radius: 5px;
-    margin-bottom: 20px;}
-.alertas-do-dia{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-color: #FFF;
-    flex-direction: row;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.digital{
-    display: flex;
-    margin: auto;
-    align-items: center;
-    padding: 10px;
-}
-.logo-login{
-    width: 250px;
-    height: auto;
-    display: flex;
-
-    justify-content: center;
-
-}
-.saudaçãonome{
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.3em;
-    font-style: normal;
-    font-weight: 900;
-}
-#biometria{
-    max-width: 20rem;
-    max-height: 200px;
-    flex-shrink: 0;
-    margin: auto;
-    display: table;
-    text-align: center;
-    background-color: #FFF;
-    flex-direction: row;
-    border: 1px solid #00092E;
-    border-radius: 5px;
 }
