@@ -324,9 +324,11 @@ font-weight: 700;
     justify-content: space-around;
 }
 #cardapio-confirm{
+max-width: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
+margin:auto;
 }
 #presença{
     text-align: center;
