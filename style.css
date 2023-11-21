@@ -62,6 +62,7 @@ video {
     width: 100%;
 }
 .conteudo-landing {
+    margin: auto;
     background-color: rgb(29, 115, 190);
     color: white;
     font-family: Montserrat;
